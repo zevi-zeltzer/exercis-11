@@ -1,0 +1,63 @@
+/* AppCounter.css */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+    justify-content: center;
+  }
+  
+  .counter {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    width: 120px;
+  }
+  
+  .counter button {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .counter button.INC {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .counter button.INC:hover {
+    background-color: #45a049;
+  }
+  
+  .counter button.RST {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .counter button.RST:hover {
+    background-color: #e53935;
+  }
+  
+  .counter button.DEC {
+    background-color: #008cba;
+    color: white;
+  }
+  
+  .counter button.DEC:hover {
+    background-color: #007bb5;
+  }
+  
+  .numCounter {
+    font-size: 24px;
+    margin-top: 16px;
+  }
+  
