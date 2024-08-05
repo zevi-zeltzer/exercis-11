@@ -8,9 +8,7 @@ function Counter(props) {
        <button className='INC' onClick={()=>{setCounter(counter+props.id)}}>INC</button>
        <button className='RST' onClick={()=>{setCounter(counter=0)}}>RST</button>
        <button className='DEC' onClick={()=>{setCounter(counter-props.id)}}>DEC</button>
-       
        <p className='numCounter'>{counter}</p>
-        
     </div>
   )
 }
