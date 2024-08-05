@@ -1,8 +1,10 @@
 import React from 'react'
 
-function NumKey() {
+function NumKey(props) {
   return (
-    <div></div>
+    <div className='numKey'>
+       <button className='butNum' onClick={props.addNum}>{props.id}</button> 
+    </div>
   )
 }
 
